@@ -16,7 +16,7 @@ struct ContentView: View {
                 attributedString.foregroundColor = .red
                 
                 // red
-                print(attributedString.foregroundColor!)
+                print(attributedString.foregroundColor ?? "nil")
                 
                 // nil
                 Target.printForegroundColor(attributedString: attributedString)

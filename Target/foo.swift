@@ -8,5 +8,5 @@
 import UIKit
 
 public func printForegroundColor(attributedString: AttributedString) {
-    print(attributedString.foregroundColor)
+    print(attributedString.foregroundColor ?? "nil")
 }
