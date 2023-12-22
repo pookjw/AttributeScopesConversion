@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 public func printForegroundColor(attributedString: AttributedString) {
     print(attributedString.foregroundColor ?? "nil")
